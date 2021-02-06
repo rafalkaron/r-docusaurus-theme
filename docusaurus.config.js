@@ -9,6 +9,23 @@ module.exports = {
   organizationName: 'rafalkaron', // Usually your GitHub org/user name.
   projectName: 'r-docusaurus-theme', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      // defaultMode: 'light',
+      respectPrefersColorScheme: true,
+      disableSwitch: false,
+      switchConfig: {
+        lightIcon: '\u{25CB}',
+        darkIcon: '\u{25CF}',
+        darkIconStyle: {
+          color: `#FFFFFF`,
+        },
+        lightIconStyle: {
+          color: `#FFFFFF`,
+        },
+
+      },
+    },
+
     navbar: {
       title: 'R',
       logo: {
@@ -86,7 +103,38 @@ module.exports = {
           routeBasePath: '/',
           
         },
-        plugins: ['docusaurus-plugin-sass'],
+        plugins: [
+          'docusaurus-plugin-sass',
+          '@docusaurus/plugin-sitemap',
+          {
+            cacheTime: 600 * 1000, // 600 sec - cache purge period
+            changefreq: 'weekly',
+            priority: 0.5,
+            trailingSlash: false,
+          },
+          '@docusaurus/plugin-pwa',
+          {
+            debug: true,
+            offlineModeActivationStrategies: ['appInstalled', 'queryString'],
+            pwaHead: [
+              {
+                tagName: 'link',
+                rel: 'icon',
+                href: '/img/logo.png',
+              },
+              {
+                tagName: 'link',
+                rel: 'manifest',
+                href: '/manifest.json', // your PWA manifest
+              },
+              {
+                tagName: 'meta',
+                name: 'theme-color',
+                content: '#5f0f40',
+              },
+            ],
+          },
+        ],
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
