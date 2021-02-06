@@ -86,6 +86,7 @@ module.exports = {
           routeBasePath: '/',
           
         },
+        plugins: ['docusaurus-plugin-sass'],
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
