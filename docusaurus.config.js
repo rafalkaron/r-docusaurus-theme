@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'R',
+  title: 'R-Docusaurus-Theme',
   tagline: 'A simple theme focused on the docs.',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -22,42 +22,27 @@ module.exports = {
         lightIconStyle: {
           color: `#FFFFFF`,
         },
-
       },
     },
 
     navbar: {
-      title: 'R',
+      title: 'R-Docusaurus-Theme',
       logo: {
         alt: 'r-docusaurus-theme logo',
         src: 'img/logo.svg',
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
+          to: '/',
+          activeBasePath: '/',
           label: 'Docs',
           position: 'left',
         },
         {
-          to: 'docs/section_a',
-          activeBasePath: 'docs/section_a',
-          label: 'Section A',
+          to: 'https://www.github.com/rafalkaron/r-docusaurus-theme',
+          label: 'GitHub',
           position: 'right',
         },
-        {
-          to: 'docs/section_b',
-          activeBasePath: 'docs/section_b',
-          label: 'Section B',
-          position: 'right',
-        },
-        {
-          to: 'docs/section_c',
-          activeBasePath: 'docs/section_c',
-          label: 'Section C',
-          position: 'right',
-        },
-
       ],
     },
     footer: {
@@ -85,6 +70,15 @@ module.exports = {
             {
               label: '500px',
               href: '#500px'
+            },
+          ],
+        },
+        {
+          title: 'Related Information',
+          items: [
+            {
+              label: 'GitHub',
+              href: 'https://www.github.com/rafalkaron/r-docusaurus-theme',
             },
           ],
         },
