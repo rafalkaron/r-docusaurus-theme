@@ -5,12 +5,12 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
   organizationName: 'rafalkaron', // Usually your GitHub org/user name.
   projectName: 'r-docusaurus-theme', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'R',
       logo: {
         alt: 'r-docusaurus-theme logo',
         src: 'img/logo.svg',
