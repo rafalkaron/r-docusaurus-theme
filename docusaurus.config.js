@@ -1,5 +1,5 @@
 module.exports = {
-  title: "R-Docusaurus-Theme",
+  title: "R",
   tagline: "A simple Docusaurus theme focused on the docs.",
   url: "https://www.rafalkaron.github.io/r-docusaurus-theme/",
   baseUrl: "/",
@@ -24,7 +24,7 @@ module.exports = {
     },
 
     navbar: {
-      title: "R-Docusaurus-Theme",
+      title: "R",
       logo: {
         alt: "r-docusaurus-theme logo",
         src: "img/logo.svg",
