@@ -32,15 +32,15 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
-        {
-          to: '/',
-          activeBasePath: '/',
-          label: 'Docs',
-          position: 'left',
-        },
+        // {
+        //   to: '/',
+        //   activeBasePath: '/',
+        //   label: 'Docs',
+        //   position: 'left',
+        // },
         {
           to: 'https://www.github.com/rafalkaron/r-docusaurus-theme',
-          label: 'GitHub',
+          src: 'img/icons/github.svg',
           position: 'right',
         },
       ],
@@ -93,7 +93,6 @@ module.exports = {
           
         },
         plugins: [
-          'docusaurus-plugin-sass',
           '@docusaurus/plugin-sitemap',
           {
             cacheTime: 600 * 1000, // 600 sec - cache purge period

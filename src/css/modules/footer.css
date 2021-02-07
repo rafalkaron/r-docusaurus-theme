@@ -33,3 +33,9 @@ ul.footer__items {
     padding: 0;
     margin: 0;
 }
+
+a.footer__link-item:hover,
+a.footer__link-item:active,
+a.footer__link-item:focus {
+    color: inherit;
+}
