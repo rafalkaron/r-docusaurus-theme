@@ -49,36 +49,31 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Contact',
           items: [
             {
               label: 'Mail',
               href: 'mailto:name.surname@domain.com',
+              icon: '/src/media/icons/mail.svg',
             },
             {
               label: 'GitHub',
               href: '#github',
+              icon: '/src/media/icons/github.svg',
             },
             {
               label: 'Linkedin',
               href: '#linkedin',
+              icon: '/src/media/icons/linkedin.svg',
             },
             {
               label: 'Twitter',
               href: '#twitter',
+              icon: '/src/media/icons/twitter.svg',
             },
             {
               label: '500px',
-              href: '#500px'
-            },
-          ],
-        },
-        {
-          title: 'Related Information',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://www.github.com/rafalkaron/r-docusaurus-theme',
+              href: '#500px',
+              icon: '/src/media/icons/500px.svg',
             },
           ],
         },
