@@ -9,6 +9,7 @@
 
 @import "modules/footer.css";
 @import "modules/navbar.css";
+@import "modules/toc_right.css";
 
 :root {
     --ifm-color-primary: #5f0f40;
