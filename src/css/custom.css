@@ -8,6 +8,7 @@
 /* You can override the default Infima variables here. */
 
 @import "modules/footer.css";
+@import "modules/navbar.css";
 
 :root {
     --ifm-color-primary: #5f0f40;
