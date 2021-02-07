@@ -1,4 +1,4 @@
-:root {
+html[data-theme='light'] {
     --ifm-color-primary: #006d77; /* Links and accents */
     --ifm-color-secondary: #f4f4f4; /* Note and footer items */
     --ifm-color-gray-500: #dadde1; /* HRs */
@@ -12,15 +12,16 @@
 
     --ifm-background-color: #f4f4f4; /* Site background */
     --ifm-color-content-secondary: #242526; /* Right TOC */
+    --ifm-hover-overlay: #dadde1; /* Left TOC overlay */
     --ifm-color-emphasis-700: #242526; /* Left TOC */
     --ifm-color-emphasis-900: #242526; /* Body paragraphs and headers */
 }
 
 html[data-theme='dark'] {
-    --ifm-color-primary: #00d4e7;
-    --ifm-color-secondary: #f4f4f4;
-    --ifm-color-gray-500: #242526;
-    --ifm-color-emphasis-300: #242526;
+    --ifm-color-primary: #00d4e7; /* Links and accents */
+    --ifm-color-secondary: #f4f4f4; /* Note and footer items */
+    --ifm-color-gray-500: #242526; /* HRs */
+    --ifm-color-emphasis-300: #242526; /* TOC Dividers */
     
     --ifm-color-success: #242526; /* Tip note */
     --ifm-color-info: #242526; /* Important note */
@@ -28,11 +29,11 @@ html[data-theme='dark'] {
     --ifm-color-danger: #242526; /* Danger note */
     --ifm-color-black: #f4f4f4; /* Text color */
 
-    --ifm-background-color: #18191a;
-    --ifm-color-content-secondary: #f4f4f4;
-    --ifm-hover-overlay: #242526;
-    --ifm-color-emphasis-700: #f4f4f4;
-    --ifm-color-emphasis-900: #f4f4f4;
+    --ifm-background-color: #18191a; /* Site background */
+    --ifm-color-content-secondary: #f4f4f4; /* Right TOC */
+    --ifm-hover-overlay: #242526; /* Left TOC overlay */
+    --ifm-color-emphasis-700: #f4f4f4; /* Left TOC */
+    --ifm-color-emphasis-900: #f4f4f4; /* Body paragraphs and headers */
 }
 
 /* Notes overrides */
@@ -41,11 +42,30 @@ html[data-theme='dark'] div.admonition.admonition-note.alert.alert--secondary {
     color: #f4f4f4;
     border: none;
 }
+html[data-theme='dark'] div.admonition.admonition-note.alert.alert--secondary > div.admonition-heading > h5 > span {
+    filter: invert(100%);
+}
 html[data-theme='light'] div.admonition.admonition-note.alert.alert--secondary {
     background: #dadde1;
     color: #242526;
     border: none;
 }
-html[data-theme='dark'] div.admonition.admonition-note.alert.alert--secondary > div.admonition-heading > h5 > span {
-    filter: invert(100%);
+
+/* Codeblocks */
+.docusaurus-highlight-code-line {
+    background-color: rgb(72, 77, 91);
+    display: block;
+    margin: 0 calc(-1 * var(--ifm-pre-padding));
+    padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] blockquote {
+    color: #f4f4f4;
+    font-size: 90%;
+    padding: 0.5rem 1rem;
+}
+html[data-theme='light'] blockquote {
+    color: #242526;
+    font-size: 90%;
+    padding: 0.5rem 1rem;
 }
