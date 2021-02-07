@@ -15,10 +15,10 @@ module.exports = {
         lightIcon: "\u{25CB}",
         darkIcon: "\u{25CF}",
         darkIconStyle: {
-          color: `#FFFFFF`,
+          color: `#f4f4f4`,
         },
         lightIconStyle: {
-          color: `#FFFFFF`,
+          color: `#f4f4f4`,
         },
       },
     },
