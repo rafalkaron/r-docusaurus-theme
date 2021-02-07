@@ -1,21 +1,19 @@
 module.exports = {
-  title: 'R-Docusaurus-Theme',
-  tagline: 'A simple theme focused on the docs.',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.svg',
-  organizationName: 'rafalkaron', // Usually your GitHub org/user name.
-  projectName: 'r-docusaurus-theme', // Usually your repo name.
+  title: "R-Docusaurus-Theme",
+  tagline: "A simple Docusaurus theme focused on the docs.",
+  url: "https://www.rafalkaron.github.io/r-docusaurus-theme/",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.svg",
+  organizationName: "rafalkaron",
+  projectName: "r-docusaurus-theme",
   themeConfig: {
     colorMode: {
-      // defaultMode: 'light',
       respectPrefersColorScheme: true,
-      disableSwitch: false,
       switchConfig: {
-        lightIcon: '\u{25CB}',
-        darkIcon: '\u{25CF}',
+        lightIcon: "\u{25CB}",
+        darkIcon: "\u{25CF}",
         darkIconStyle: {
           color: `#FFFFFF`,
         },
@@ -26,10 +24,10 @@ module.exports = {
     },
 
     navbar: {
-      title: 'R-Docusaurus-Theme',
+      title: "R-Docusaurus-Theme",
       logo: {
-        alt: 'r-docusaurus-theme logo',
-        src: 'img/logo.svg',
+        alt: "r-docusaurus-theme logo",
+        src: "img/logo.svg",
       },
       items: [
         // {
@@ -39,41 +37,41 @@ module.exports = {
         //   position: 'left',
         // },
         {
-          to: 'https://www.github.com/rafalkaron/r-docusaurus-theme',
-          src: 'img/icons/github.svg',
-          position: 'right',
+          to: "https://www.github.com/rafalkaron/r-docusaurus-theme",
+          src: "img/icons/github.svg",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
           items: [
             {
-              label: 'Mail',
-              href: 'mailto:name.surname@domain.com',
-              icon: '/src/media/icons/mail.svg',
+              label: "Mail",
+              href: "mailto:name.surname@domain.com",
+              icon: "/src/media/icons/mail.svg",
             },
             {
-              label: 'GitHub',
-              href: '#github',
-              icon: '/src/media/icons/github.svg',
+              label: "GitHub",
+              href: "#github",
+              icon: "/src/media/icons/github.svg",
             },
             {
-              label: 'Linkedin',
-              href: '#linkedin',
-              icon: '/src/media/icons/linkedin.svg',
+              label: "Linkedin",
+              href: "#linkedin",
+              icon: "/src/media/icons/linkedin.svg",
             },
             {
-              label: 'Twitter',
-              href: '#twitter',
-              icon: '/src/media/icons/twitter.svg',
+              label: "Twitter",
+              href: "#twitter",
+              icon: "/src/media/icons/twitter.svg",
             },
             {
-              label: '500px',
-              href: '#500px',
-              icon: '/src/media/icons/500px.svg',
+              label: "500px",
+              href: "#500px",
+              icon: "/src/media/icons/500px.svg",
             },
           ],
         },
@@ -83,48 +81,17 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         blog: false,
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          path: './docs',
-          routeBasePath: '/',
-          
+          sidebarPath: require.resolve("./sidebars.js"),
+          path: "./docs",
+          routeBasePath: "/",
         },
-        plugins: [
-          '@docusaurus/plugin-sitemap',
-          {
-            cacheTime: 600 * 1000, // 600 sec - cache purge period
-            changefreq: 'weekly',
-            priority: 0.5,
-            trailingSlash: false,
-          },
-          '@docusaurus/plugin-pwa',
-          {
-            debug: true,
-            offlineModeActivationStrategies: ['appInstalled', 'queryString'],
-            pwaHead: [
-              {
-                tagName: 'link',
-                rel: 'icon',
-                href: '/img/logo.png',
-              },
-              {
-                tagName: 'link',
-                rel: 'manifest',
-                href: '/manifest.json', // your PWA manifest
-              },
-              {
-                tagName: 'meta',
-                name: 'theme-color',
-                content: '#5f0f40',
-              },
-            ],
-          },
-        ],
+        plugins: [],
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
