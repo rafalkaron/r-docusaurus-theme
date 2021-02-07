@@ -58,14 +58,3 @@ html[data-theme='light'] div.admonition.admonition-note.alert.alert--secondary {
     margin: 0 calc(-1 * var(--ifm-pre-padding));
     padding: 0 var(--ifm-pre-padding);
 }
-
-html[data-theme='dark'] blockquote {
-    color: #f4f4f4;
-    font-size: 90%;
-    padding: 0.5rem 1rem;
-}
-html[data-theme='light'] blockquote {
-    color: #242526;
-    font-size: 90%;
-    padding: 0.5rem 1rem;
-}

@@ -10,4 +10,6 @@
 @import "modules/footer.css";
 @import "modules/navbar.css";
 @import "modules/toc_right.css";
+@import "modules/blockquote.css";
+@import "modules/code.css";
 @import "modules/infima.css";
