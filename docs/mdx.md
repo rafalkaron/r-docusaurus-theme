@@ -1,6 +1,6 @@
 ---
 id: mdx
-title: Topic D
+title: MD + JSX = MDX
 ---
 
 You can write JSX and use React components within your Markdown thanks to [MDX](https://mdxjs.com/).

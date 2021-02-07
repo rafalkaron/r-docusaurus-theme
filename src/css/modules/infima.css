@@ -2,7 +2,7 @@ html[data-theme='light'] {
     --ifm-color-primary: #006d77; /* Links and accents */
     --ifm-color-secondary: #f4f4f4; /* Note and footer items */
     --ifm-color-gray-500: #dadde1; /* HRs */
-    --ifm-color-emphasis-300: #dadde1; /* TOC Dividers */
+    --ifm-color-emphasis-300: #e6e6e6; /* TOC Dividers */
 
     --ifm-color-success: #dadde1; /* Tip note */
     --ifm-color-info: #dadde1; /* Important note */
@@ -12,13 +12,13 @@ html[data-theme='light'] {
 
     --ifm-background-color: #f4f4f4; /* Site background */
     --ifm-color-content-secondary: #242526; /* Right TOC */
-    --ifm-hover-overlay: #dadde1; /* Left TOC overlay */
+    --ifm-hover-overlay: #e6e6e6; /* Left TOC overlay */
     --ifm-color-emphasis-700: #242526; /* Left TOC */
     --ifm-color-emphasis-900: #242526; /* Body paragraphs and headers */
 }
 
 html[data-theme='dark'] {
-    --ifm-color-primary: #00d4e7; /* Links and accents */
+    --ifm-color-primary: #12c0cf; /* Links and accents */
     --ifm-color-secondary: #f4f4f4; /* Note and footer items */
     --ifm-color-gray-500: #242526; /* HRs */
     --ifm-color-emphasis-300: #242526; /* TOC Dividers */
@@ -57,4 +57,7 @@ html[data-theme='light'] div.admonition.admonition-note.alert.alert--secondary {
     display: block;
     margin: 0 calc(-1 * var(--ifm-pre-padding));
     padding: 0 var(--ifm-pre-padding);
+}
+#__docusaurus > div > div > main > div > div > div.col.docItemCol_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocItem- > div > article > div > div > div > button {
+    color: #f4f4f4;
 }
