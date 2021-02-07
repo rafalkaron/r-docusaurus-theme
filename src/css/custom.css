@@ -12,4 +12,6 @@
 @import "modules/toc_right.css";
 @import "modules/blockquote.css";
 @import "modules/code.css";
+@import "modules/definition_list.css";
+
 @import "modules/infima.css";
