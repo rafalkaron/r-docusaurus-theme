@@ -1,6 +1,8 @@
 :root {
     --ifm-color-primary: #006d77;
-    --ifm-color-secondary: #ebedf0;
+    --ifm-color-secondary: #dadde1;
+    --ifm-color-gray-500: #dadde1;
+    --ifm-color-emphasis-300: #dadde1;
 
     --ifm-color-success: #00a400;
     --ifm-color-info: #54c7ec;
@@ -13,6 +15,7 @@
     
     --ifm-color-emphasis-900: #242526;
     --ifm-color-emphasis-700: #242526;
+    
 
     --ifm-footer-link-color: #f4f4f4;
     --ifm-footer-background-color: #242526;
@@ -30,4 +33,6 @@ html[data-theme='dark'] {
     --ifm-color-emphasis-700: #f4f4f4;
     --collapse-button-bg-color-light: #f4f4f4;
     --ifm-color-emphasis-300: #242526;
+    --ifm-color-secondary: #dadde1;
+    --ifm-color-gray-500: #242526;
 }
