@@ -2,6 +2,9 @@ footer.footer {
     padding: 1rem;
     background: #5f0f40;
 }
+footer.footer--dark {
+    background: #222222;
+}
 
 ul.footer__items {
     display: flex;
@@ -21,6 +24,8 @@ ul.footer__items {
 #__docusaurus > footer > div {
     margin: 0;
     padding: 0;
+    width: 100%;
+    min-width: 100%;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
