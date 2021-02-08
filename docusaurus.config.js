@@ -17,7 +17,7 @@ module.exports = {
             },
         },
         footer: {
-            style: "dark", // Leave as is 
+            style: "dark", // Leave as is
             links: [
                 {
                     items: [
@@ -67,6 +67,7 @@ module.exports = {
             "@docusaurus/preset-classic",
             {
                 blog: false,
+                pages: false,
                 docs: {
                     sidebarPath: require.resolve("./sidebars.js"),
                     path: "./docs",
