@@ -1,7 +1,7 @@
 module.exports = {
     title: "R", // The page title that displays in your web browser tab
     tagline: "A simple Docusaurus theme focused on the docs.", // Your site description
-    url: "https://www.rafalkaron.github.io/r-docusaurus-theme/", // Your site address
+    url: "https://rafalkaron.github.io/r-docusaurus-theme/", // Your site address
     baseUrl: "/", // Leave as is
     onBrokenLinks: "throw", // Leave as is
     onBrokenMarkdownLinks: "warn", // Leave as is
