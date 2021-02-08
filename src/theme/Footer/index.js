@@ -21,7 +21,8 @@ function FooterLink({
   const toUrl = useBaseUrl(to);
   const normalizedHref = useBaseUrl(href, {
     forcePrependBaseUrl: true
-  });
+  })
+  ;
   return <Link className="footer__link-item" {...href ? {
     target: '_blank',
     rel: 'noopener noreferrer',
@@ -33,11 +34,6 @@ function FooterLink({
     </Link>;
 }
 
-const FooterLogo = ({
-  url,
-  alt
-}) => <img className="footer__logo" alt={alt} src={url} />;
-
 function Footer() {
   const {
     footer
@@ -47,7 +43,7 @@ function Footer() {
     links = [],
     logo = {}
   } = footer || {};
-  const logoUrl = useBaseUrl(logo.src);
+  ;
 
   if (!footer) {
     return null;
@@ -72,11 +68,6 @@ function Footer() {
               </div>)}
           </div>}
         {(logo || copyright) && <div className="footer__bottom text--center">
-            {logo && logo.src && <div className="margin-bottom--sm">
-                {logo.href ? <a href={logo.href} target="_blank" rel="noopener noreferrer" className={styles.footerLogoLink}>
-                    <FooterLogo alt={logo.alt} url={logoUrl} />
-                  </a> : <FooterLogo alt={logo.alt} url={logoUrl} />}
-              </div>}
             {copyright ? <div className="footer__copyright" // Developer provided the HTML, so assume it's safe.
         // eslint-disable-next-line react/no-danger
         dangerouslySetInnerHTML={{
