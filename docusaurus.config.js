@@ -17,7 +17,7 @@ module.exports = {
             },
         },
         footer: {
-            style: "dark", // Leave as is
+            style: "dark", // Leave as is 
             links: [
                 {
                     items: [
