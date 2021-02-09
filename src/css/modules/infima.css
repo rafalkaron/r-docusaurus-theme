@@ -61,3 +61,7 @@ html[data-theme='light'] div.admonition.admonition-note.alert.alert--secondary {
 #__docusaurus > div > div > main > div > div > div.col.docItemCol_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocItem- > div > article > div > div > div > button {
     color: #f4f4f4;
 }
+
+#__docusaurus > div > div > main > div > div > div.col.docItemCol_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocItem- button {
+    background-color: #f4f4f4b0;
+}
