@@ -1,18 +1,19 @@
 module.exports = {
-    title: "R", // The page title that displays in your web browser tab
-    tagline: "A simple Docusaurus theme focused on the docs.", // Your site description
-    url: "https://rafalkaron.github.io/r-docusaurus-theme/", // Your site address
+    title: "Klipps", // The page title that displays in your web browser tab
+    tagline: "Klipps enables you to export your Kindle clippings to a static site.  ", // Your site description
+    url: "https://rafalkaron.github.io/klipps/", // Your site address
     baseUrl: "/", // Leave as is
     onBrokenLinks: "throw", // Leave as is
     onBrokenMarkdownLinks: "warn", // Leave as is
     favicon: "img/favicon.svg", // The path to your favicon
     organizationName: "rafalkaron", // The name of your organization (usually, your GitHub username)
-    projectName: "r-docusaurus-theme", // The name of your project (usually, your GitHub repository name)
+    projectName: "klipps", // The name of your project (usually, your GitHub repository name)
     themeConfig: {
+        sidebarCollapsible: false,
         navbar: {
-            title: "R",
+            title: "Klipps",
             logo: {
-                alt: "r-docusaurus-theme logo",
+                alt: "Klipps logo",
                 src: "img/logo.svg",
             },
         },
@@ -23,28 +24,28 @@ module.exports = {
                     items: [
                         {
                             label: "Mail",
-                            href: "mailto:name.surname@domain.com", // Fill in with your email address
+                            href: "mailto:rafalkaron@gmail.com", // Fill in with your email address
                             icon: "/src/media/icons/mail.svg",
                         },
                         {
                             label: "GitHub",
-                            href: "#github", // Fill in with a link to your GitHub account
+                            href: "https://github.com/rafalkaron", // Fill in with a link to your GitHub account
                             icon: "/src/media/icons/github.svg",
                         },
                         {
                             label: "LinkedIn",
-                            href: "#linkedin", // Fill in with a link to your LinkedIn account
+                            href: "https://www.linkedin.com/in/rafa%C5%82-karo%C5%84-39534516b", // Fill in with a link to your LinkedIn account
                             icon: "/src/media/icons/linkedin.svg",
                         },
                         {
                             label: "Twitter",
-                            href: "#twitter", // Fill in with a link to your Twitter account
+                            href: "https://www.twitter.com/rafalkaron", // Fill in with a link to your Twitter account
                             icon: "/src/media/icons/twitter.svg",
                         },
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} Name Surname`, // Replace with your name and surname
+            copyright: `Copyright © ${new Date().getFullYear()} Rafał Karoń`, // Replace with your name and surname
         },
         colorMode: {
             // Dark/Light Mode switcher. You can leave this as is or play around if you are curious!

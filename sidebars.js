@@ -1,13 +1,13 @@
 module.exports = {
 
   sidebar: {
-    'Theme': [
-      'r-docusaurus-theme-overview',
-      'r-docusaurus-theme-installation',
-      'r-docusaurus-theme-configuration',
+    'Klipps': [
+      'klipps-overview',
+      'exporting-kindle-clippings',
+      'accessing-klipps-help'
     ],
-    'Markdown': [
-      'style-guide', 
-      'mdx']
+    'OS': [
+      'accepting-macos-security-prompts', 
+      'accepting-windows-security-prompts']
   },
 };
