@@ -2,7 +2,7 @@ module.exports = {
     title: "Klipps", // The page title that displays in your web browser tab
     tagline: "Klipps enables you to export your Kindle clippings to a static site.  ", // Your site description
     url: "https://rafalkaron.github.io/klipps/", // Your site address
-    baseUrl: "/", // Leave as is
+    baseUrl: "/Klipps/", // Leave as is
     onBrokenLinks: "throw", // Leave as is
     onBrokenMarkdownLinks: "warn", // Leave as is
     favicon: "img/favicon.svg", // The path to your favicon
