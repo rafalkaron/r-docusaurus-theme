@@ -1,14 +1,27 @@
 module.exports = {
     title: "Klipps", // The page title that displays in your web browser tab
-    tagline: "Klipps enables you to export your Kindle clippings to a static site.  ", // Your site description
+    tagline:
+        "Klipps enables you to export your Kindle clippings to a static site.  ", // Your site description
     url: "https://rafalkaron.github.io/klipps/", // Your site address
-    baseUrl: "/Klipps/", // Leave as is
+    baseUrl: "/klipps/", // Leave as is
     onBrokenLinks: "throw", // Leave as is
     onBrokenMarkdownLinks: "warn", // Leave as is
     favicon: "img/favicon.svg", // The path to your favicon
     organizationName: "rafalkaron", // The name of your organization (usually, your GitHub username)
     projectName: "klipps", // The name of your project (usually, your GitHub repository name)
     themeConfig: {
+        // algolia: {
+        //     apiKey: "YOUR_API_KEY",
+        //     indexName: "YOUR_INDEX_NAME",
+
+        //     // Optional: see doc section bellow
+        //     contextualSearch: true,
+
+        //     // Optional: Algolia search parameters
+        //     searchParameters: {},
+
+        //     //... other Algolia params
+        // },
         sidebarCollapsible: false,
         navbar: {
             title: "Klipps",
@@ -18,7 +31,7 @@ module.exports = {
             },
         },
         footer: {
-            style: "dark", // Leave as is 
+            style: "dark", // Leave as is
             links: [
                 {
                     items: [
@@ -34,7 +47,8 @@ module.exports = {
                         },
                         {
                             label: "LinkedIn",
-                            href: "https://www.linkedin.com/in/rafa%C5%82-karo%C5%84-39534516b", // Fill in with a link to your LinkedIn account
+                            href:
+                                "https://www.linkedin.com/in/rafa%C5%82-karo%C5%84-39534516b", // Fill in with a link to your LinkedIn account
                             icon: "/src/media/icons/linkedin.svg",
                         },
                         {
