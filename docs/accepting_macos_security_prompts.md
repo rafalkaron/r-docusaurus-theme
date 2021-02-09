@@ -3,7 +3,7 @@ id: accepting-macos-security-prompts
 title: Accepting macOS Security Prompts
 ---
 
-*You may need to accept security prompts to run an application or a script.*
+You may need to accept security prompts to run an application or a script.
 
 1. Double-click the app or script that you want to run.
 2. Depending on the executable type, in the security prompt, do one of the following:
@@ -16,11 +16,10 @@ title: Accepting macOS Security Prompts
     1. Press **Cmd** and **Space**.
     2. In the **Spotlight Search** dialog, enter `Security & Privacy`
     3. Click **Security & Privacy**.
-4. In the **Security & Privacy** window, do the following:  
-![macOS Security and Privacy window](/media/macos_security_and_privacy.png)
+4. In the **Security & Privacy** window, do the following:  ![macOS Security and Privacy window](/media/macos_security_and_privacy.png)
     1. In the **General** tab, at the bottom, click the **Lock** icon.
-    1. In the dialog, enter your password and click **Unlock**.
-    1. Ensure that the **App Store and identified developers** check box is selected.
-    1. Click **Open Anyway**.
+    2. In the dialog, enter your password and click **Unlock**.
+    3. Ensure that the **App Store and identified developers** check box is selected.
+    4. Click **Open Anyway**.
 1. In the dialog, click **Open**.  
 ![macOS App Security Prompt](/media/macos_app_security_prompt_2.png)
