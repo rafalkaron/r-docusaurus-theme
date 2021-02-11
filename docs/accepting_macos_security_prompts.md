@@ -10,8 +10,10 @@ You may need to accept security prompts to run an application or a script.
     1. For apps, click **Cancel**.  
     ![macOS security prompt](/media/macos_security_prompt_1.png)
     1. For scripts, click **OK**.  
-    **Important:** If the prompt does not appear, make the script executable. See [making macOS Scripts Executable](https://github.com/rafalkaron/Klipps/wiki/Making-macOS-Scripts-Executable).  
+    :::note
+    If the prompt does not appear, make the script executable. See [making macOS Scripts Executable](https://github.com/rafalkaron/Klipps/wiki/Making-macOS-Scripts-Executable).  
     ![Script Security Prompt](/media/macos_script_alternative.png)
+    :::
 3. Open the security and privacy settings by doing the following:
     1. Press **Cmd** and **Space**.
     2. In the **Spotlight Search** dialog, enter `Security & Privacy`
