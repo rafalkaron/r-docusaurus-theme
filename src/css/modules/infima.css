@@ -1,0 +1,108 @@
+html[data-theme='light'] {
+    --ifm-color-primary: #006d77; /* Links and accents */
+    --ifm-color-secondary: #f4f4f4; /* Note and footer items */
+    --ifm-color-gray-500: #dadde1; /* HRs */
+    --ifm-color-emphasis-300: #e6e6e6; /* TOC Dividers */
+
+    --ifm-color-success: #dadde1; /* Tip note */
+    --ifm-color-info: #dadde1; /* Important note */
+    --ifm-color-warning: #dadde1; /* Warning note */
+    --ifm-color-danger: #dadde1; /* Danger note */
+    --ifm-color-white: #242526; /* Text color */
+
+    --ifm-background-color: #f4f4f4; /* Site background */
+    --ifm-color-content-secondary: #242526; /* Right TOC */
+    --ifm-hover-overlay: #e6e6e6; /* Left TOC overlay */
+    --ifm-color-emphasis-700: #242526; /* Left TOC */
+    --ifm-color-emphasis-900: #242526; /* Body paragraphs and headers */
+}
+
+html[data-theme='dark'] {
+    --ifm-color-primary: #12c0cf; /* Links and accents */
+    --ifm-color-secondary: #f4f4f4; /* Note and footer items */
+    --ifm-color-gray-500: #242526; /* HRs */
+    --ifm-color-emphasis-300: #242526; /* TOC Dividers */
+    
+    --ifm-color-success: #242526; /* Tip note */
+    --ifm-color-info: #242526; /* Important note */
+    --ifm-color-warning: #242526; /* Warning note */
+    --ifm-color-danger: #242526; /* Danger note */
+    --ifm-color-black: #f4f4f4; /* Text color */
+
+    --ifm-background-color: #18191a; /* Site background */
+    --ifm-color-content-secondary: #f4f4f4; /* Right TOC */
+    --ifm-hover-overlay: #242526; /* Left TOC overlay */
+    --ifm-color-emphasis-700: #f4f4f4; /* Left TOC */
+    --ifm-color-emphasis-900: #f4f4f4; /* Body paragraphs and headers */
+}
+
+/* Notes overrides */
+html[data-theme='dark'] div.admonition.admonition-note.alert.alert--secondary {
+    background: #242526;
+    color: #f4f4f4;
+    border: none;
+}
+html[data-theme='dark'] div.admonition.admonition-note.alert.alert--secondary > div.admonition-heading > h5 > span {
+    filter: invert(100%);
+}
+html[data-theme='light'] div.admonition.admonition-note.alert.alert--secondary {
+    background: #dadde1;
+    color: #242526;
+    border: none;
+}
+
+/* Codeblocks */
+.docusaurus-highlight-code-line {
+    background-color: #4a4c4e;
+    display: block;
+    margin: 0 calc(-1 * var(--ifm-pre-padding));
+    padding: 0 var(--ifm-pre-padding);
+}
+#__docusaurus > div > div > main > div > div > div.col.docItemCol_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocItem- > div > article > div > div > div > button {
+    color: #f4f4f4;
+}
+
+#__docusaurus > div > div > main > div > div > div.col.docItemCol_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocItem- button {
+    background-color: #f4f4f4b0;
+}
+
+/* Search */
+
+html[data-theme='light'] .DocSearch {
+    --docsearch-text-color: #4d4d4d;
+    --docsearch-muted-color: #4d4d4d;
+    --docsearch-container-background: rgba(47, 55, 69, 0.7);
+    /* Modal */
+    --docsearch-modal-background: var(--ifm-background-color);
+    /* Search box */
+    --docsearch-searchbox-background: var(--ifm-color-secondary);
+    --docsearch-searchbox-focus-background: var(--ifm-color-secondary);
+    /* Hit */
+    --docsearch-hit-color: var(--ifm-font-color-base);
+    --docsearch-hit-active-color: var(--ifm-color-white);
+    --docsearch-hit-background: var(--ifm-color-white);
+    /* Footer */
+    --docsearch-footer-background: #dadde1;
+}
+
+html[data-theme='dark'] .DocSearch {
+    --docsearch-text-color: #dadde1;
+    --docsearch-muted-color: #dadde1;
+    --docsearch-container-background: rgba(47, 55, 69, 0.7);
+    /* Modal */
+    --docsearch-modal-background: var(--ifm-background-color);
+    /* Search box */
+    --docsearch-searchbox-background: #4d4d4d;
+    --docsearch-searchbox-focus-background: #4d4d4d;
+    /* Hit */
+    --docsearch-hit-color: var(--ifm-font-color-base);
+    --docsearch-hit-active-color: var(--ifm-color-white);
+    --docsearch-hit-background: var(--ifm-color-emphasis-100);
+    /* Footer */
+    --docsearch-footer-background: #242526;
+    --docsearch-key-gradient: linear-gradient(
+    -26.5deg,
+    var(--ifm-color-emphasis-200) 0%,
+    var(--ifm-color-emphasis-100) 100%
+    );
+}

@@ -1,0 +1,26 @@
+dl {
+    display: block;
+    margin: 0 1rem 0 0;
+}
+dd + dt {
+    margin-top: 1rem;
+}
+
+dt,
+dd {
+    border-left: solid 0.4rem #dadde1;
+    padding: 0 0 0 1rem;
+}
+
+[data-theme='dark'] dt,
+[data-theme='dark'] dd {
+    border-color: #242526;
+}
+
+dt,
+dt * {
+    font-weight: bold;
+}
+dd {
+    margin: 0;
+}
