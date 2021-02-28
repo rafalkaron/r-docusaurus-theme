@@ -1,15 +1,28 @@
 ---
 id: r-docusaurus-theme-installation
-title: Theme installation
-sidebar_label: Installation
+title: Getting started
 ---
 
-You install the R theme by modifying the `docusaurus.config.js` file and running your NPM package manager. Scaffolding?
+You install the R theme by running an `npx` command.
 
 ## Before you begin
 
-* Install Docusaurus. See [Docusaurus Installation](https://v2.docusaurus.io/docs/installation).
+Install **NodeJS** and **Yarn**. See [Docusaurus Requirements](https://v2.docusaurus.io/docs/installation#requirements).
 
-## Procedure
+## Initialize a site project
 
-1. a
+1. In a **terminal** application, navigate to the directory where you want to create your site.  
+**Example:** Enter `cd desktop`.
+3. Enter `npx @docusaurus/init@latest init [<my_site>] [https://github.com/rafalkaron/r-docusaurus-theme.git]`,  
+where `<my_site>` is the name of your site. For example `my-dino`.
+
+## Run the development server
+
+1. In a **terminal** application, to your site project directory.
+**Example:** Enter `cd my-dino`.
+2. Enter `yarn run start`.
+
+## Next steps
+
+* Customize the site look and feel. See [Configuration](r_docusaurus_theme_configuration.md).
+* Develop the site content. See [Site content](site_content.md).

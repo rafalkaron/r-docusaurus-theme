@@ -23,4 +23,4 @@ The R theme is a content-focused webhelp based on a highly customizable and exte
 
 * Modern and powerful framework coupled with a theme optimized for performance.
 * Non-essential and/or distracting features disabled by default.
-* Authoring in Markdown. See [Markdown Style Guide](style_guide.md).
+* Content authoring in Markdown. See [Markdown Style Guide](style_guide.md).

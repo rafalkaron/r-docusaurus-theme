@@ -7,7 +7,9 @@ module.exports = {
       'r-docusaurus-theme-configuration',
     ],
     'Markdown': [
+      'site-content',
       'style-guide', 
-      'mdx']
+      'mdx'
+      ]
   },
 };
