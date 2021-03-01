@@ -2,7 +2,7 @@ module.exports = {
   title: "R", // The page title that displays in your web browser tab
   tagline: "A simple Docusaurus theme focused on the docs.", // Your site description
   url: "https://rafalkaron.github.io/r-docusaurus-theme/", // Your site address
-  baseUrl: "/", // Leave as is
+  baseUrl: "r-docusaurus-theme/",
   onBrokenLinks: "throw", // Leave as is
   onBrokenMarkdownLinks: "warn", // Leave as is
   favicon: "img/favicon.svg", // The path to your favicon
@@ -63,12 +63,6 @@ module.exports = {
         },
       },
     },
-    // algolia: {
-    //     apiKey: 'YOUR_API_KEY',
-    //     indexName: 'YOUR_INDEX_NAME',
-    //     contextualSearch: true,
-    //     searchParameters: {},
-    // },
   },
   presets: [
     // Leave as is
