@@ -47,11 +47,11 @@ Strikethrough uses two tildes. ~~Scratch this.~~
    1. Ordered sub-list
 1. And another item.
 
-* Unordered list can use asterisks
+- Unordered list can use asterisks
 
 - Or minuses
 
-+ Or pluses
+- Or pluses
 
 ---
 

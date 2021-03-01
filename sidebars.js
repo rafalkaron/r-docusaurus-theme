@@ -6,8 +6,10 @@ module.exports = {
       'r-docusaurus-theme-installation',
       'r-docusaurus-theme-configuration',
     ],
-    'Markdown': [
+    'Content': [
+      'site-content',
       'style-guide', 
-      'mdx']
+      'mdx'
+      ]
   },
 };

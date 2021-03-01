@@ -13,5 +13,3 @@ You configure the R theme mainly by modifying the `docusaurus.config.js` file.
 ## Change the favicon
 
 ## Customize the footer
-
-## Add search for your project
