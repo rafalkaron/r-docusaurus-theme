@@ -7,7 +7,10 @@ You install the R theme by running an `npx` command.
 
 ## Before you begin
 
-Install **NodeJS** and **Yarn**. See [Docusaurus Requirements](https://v2.docusaurus.io/docs/installation#requirements).
+* Install **NodeJS**.
+* Install **Yarn**.  
+
+For more information, see [Docusaurus Requirements](https://v2.docusaurus.io/docs/installation#requirements).
 
 ## Initialize a site project
 
@@ -18,11 +21,11 @@ where `<my_site>` is the name of your site. For example `my-dino`.
 
 ## Run the development server
 
-1. In a **terminal** application, to your site project directory.
+1. In a **terminal** application, navigate to your site project directory.  
 **Example:** Enter `cd my-dino`.
 2. Enter `yarn run start`.
 
 ## Next steps
 
-* Customize the site look and feel. See [Configuration](r_docusaurus_theme_configuration.md).
-* Develop the site content. See [Site content](site_content.md).
+* Customize the site look and feel. See [Configuration](theme_configuration.md).
+* Develop the site content. See [Site content](content_site_content.md).

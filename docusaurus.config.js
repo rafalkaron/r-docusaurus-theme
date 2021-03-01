@@ -12,6 +12,7 @@ module.exports = {
     //hideableSidebar: true,
     sidebarCollapsible: false,
     navbar: {
+      //hideOnScroll: true,
       title: "R",
       logo: {
         alt: "r-docusaurus-theme logo",
