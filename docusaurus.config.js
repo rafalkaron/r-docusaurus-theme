@@ -2,18 +2,18 @@ module.exports = {
   title: "R", // The page title that displays in your web browser tab
   tagline: "A simple Docusaurus theme focused on the docs.", // Your site description
   url: "https://rafalkaron.github.io/r-docusaurus-theme/", // Your site address
-  //baseUrl: "/r-docusaurus-theme/",
-  baseUrl: "/",
+  baseUrl: "/r-docusaurus-theme/", // You may need to adjust this setting depending on your deployment method
+  //baseUrl: "/",
   onBrokenLinks: "throw", // Leave as is
   onBrokenMarkdownLinks: "warn", // Leave as is
   favicon: "img/favicon.svg", // The path to your favicon
   organizationName: "rafalkaron", // The name of your organization (usually, your GitHub username)
   projectName: "r-docusaurus-theme", // The name of your project (usually, your GitHub repository name)
   themeConfig: {
-    //hideableSidebar: true,
+    hideableSidebar: false, // Set to true to 
     sidebarCollapsible: false,
     navbar: {
-      //hideOnScroll: true,
+      hideOnScroll: false,
       title: "R",
       logo: {
         alt: "r-docusaurus-theme logo",
@@ -51,7 +51,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Name Surname`, // Replace with your name and surname
     },
     colorMode: {
-      // Dark/Light Mode switcher. You can leave this as is or play around if you are curious!
+      // Dark/Light Mode switcher. You can leave this as is or play around.
       respectPrefersColorScheme: true,
       switchConfig: {
         lightIcon: "\u{25CB}",
@@ -65,8 +65,8 @@ module.exports = {
       },
     },
   },
+  // Leave as is
   presets: [
-    // Leave as is
     [
       "@docusaurus/preset-classic",
       {
