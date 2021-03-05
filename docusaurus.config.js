@@ -2,7 +2,8 @@ module.exports = {
   title: "R", // The page title that displays in your web browser tab
   tagline: "A simple Docusaurus theme focused on the docs.", // Your site description
   url: "https://rafalkaron.github.io/r-docusaurus-theme/", // Your site address
-  baseUrl: "/", // You may need to adjust this setting depending on your deployment method
+  baseUrl: "/r-docusaurus-theme/", // You may need to adjust this setting depending on your deployment method
+  //baseUrl: "/",
   onBrokenLinks: "throw", // Leave as is
   onBrokenMarkdownLinks: "warn", // Leave as is
   favicon: "img/favicon.svg", // The path to your favicon
