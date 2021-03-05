@@ -65,12 +65,3 @@ html[data-theme='light'] div.admonition.admonition-note.alert.alert--secondary {
 #__docusaurus > div > div > main > div > div > div.col.docItemCol_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocItem- button {
     background-color: #f4f4f4b0;
 }
-
-/* Search - Lunr */
-
-html[data-theme='dark'] input#search_input_react {
-    color: white !important;
-}
-
-html[data-theme='light'] input#search_input_react {
-}
